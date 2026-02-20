@@ -21,7 +21,7 @@ async def run_one(loop, pool, sem: asyncio.Semaphore, n: int, timeout_s: float) 
 
 async def main():
     loop = asyncio.get_running_loop()
-    job_sizes = [30_000_000, 20_000_000, 25_000_000, 15_000_000, 40_000_000]
+    job_sizes = [30000000, 20000000, 25000000, 15000000, 40000000]
     concurrency = 2
     timeout_s = 3.0
 
